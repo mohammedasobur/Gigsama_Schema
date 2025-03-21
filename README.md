@@ -56,18 +56,18 @@ The AI assistant is designed to ask questions specifically about:
 
 1. Clone the repository
    ```
-   git clone https://github.com/yourusername/database-schema-creator.git
-   cd database-schema-creator
+   git https://github.com/mohammedasobur/Gigsama_Schema.git
+   cd gigsama-db-schema
    ```
 
 2. Install dependencies for both frontend and backend
    ```
    # Install backend dependencies
-   cd server
+   cd ./server
    npm install
 
    # Install frontend dependencies
-   cd ../client
+   cd ./client
    npm install
    ```
 
@@ -75,7 +75,7 @@ The AI assistant is designed to ask questions specifically about:
    ```
    PORT=5000
    MONGODB_URI=mongodb://localhost:27017/db-schema-creator
-   OPENAI_API_KEY=your_openai_api_key
+   OPENAI_API_KEY=api_key_here
    ```
 
 4. Start the development servers
@@ -86,10 +86,10 @@ The AI assistant is designed to ask questions specifically about:
 
    # In a new terminal, start frontend server
    cd client
-   npm start
+   npm run dev
    ```
 
-5. Open your browser and navigate to `http://localhost:3000`
+
 
 ## Usage
 
