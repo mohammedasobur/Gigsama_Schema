@@ -1,0 +1,100 @@
+.new-project-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .new-project-container h1 {
+    font-size: 2rem;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .chat-container {
+    height: 400px;
+    overflow-y: auto;
+    border: 1px solid #e9ecef;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: white;
+  }
+  
+  .message {
+    padding: 10px 15px;
+    border-radius: 18px;
+    margin-bottom: 10px;
+    max-width: 80%;
+  }
+  
+  .ai-message {
+    background-color: #f1f0f0;
+    color: #333;
+    align-self: flex-start;
+    margin-right: auto;
+  }
+  
+  .user-message {
+    background-color: #4a90e2;
+    color: white;
+    align-self: flex-end;
+    margin-left: auto;
+  }
+  
+  .response-form {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .response-form textarea {
+    flex-grow: 1;
+    border: 1px solid #e9ecef;
+    border-radius: 8px;
+    padding: 10px;
+  }
+  
+  .response-form button {
+    align-self: flex-end;
+    height: 40px;
+  }
+  
+  .schema-result {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .schema-result h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #2c3e50;
+  }
+  
+  .schema-container {
+    background-color: #f8f9fa;
+    border-radius: 6px;
+    padding: 15px;
+    margin-bottom: 20px;
+    overflow-x: auto;
+  }
+  
+  .schema-container pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+  
+  .save-project-form {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .error-message {
+    color: #d32f2f;
+    background-color: #ffebee;
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 10px;
+  }
